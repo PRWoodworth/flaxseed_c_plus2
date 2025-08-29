@@ -1,0 +1,7 @@
+{
+    "makefile.makefilePath": "",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}

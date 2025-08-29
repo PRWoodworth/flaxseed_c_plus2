@@ -1,0 +1,5 @@
+/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build_debug/CMakeFiles/edit_cache.dir
+/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build_debug/CMakeFiles/rebuild_cache.dir
+/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build_debug/src/CMakeFiles/example.dir
+/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build_debug/src/CMakeFiles/edit_cache.dir
+/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build_debug/src/CMakeFiles/rebuild_cache.dir
