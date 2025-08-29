@@ -83,30 +83,30 @@ src/CMakeFiles/example.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/main.cc.s"
 	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/main.cc" -o CMakeFiles/example.dir/main.cc.s
 
-src/CMakeFiles/example.dir/example_window.cc.o: src/CMakeFiles/example.dir/flags.make
-src/CMakeFiles/example.dir/example_window.cc.o: /mnt/HDD/Personal\ Projects/c++_stuff/flaxseed_c++/src/example_window.cc
-src/CMakeFiles/example.dir/example_window.cc.o: src/CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/example.dir/example_window.cc.o"
-	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/example.dir/example_window.cc.o -MF CMakeFiles/example.dir/example_window.cc.o.d -o CMakeFiles/example.dir/example_window.cc.o -c "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/example_window.cc"
+src/CMakeFiles/example.dir/input_window.cc.o: src/CMakeFiles/example.dir/flags.make
+src/CMakeFiles/example.dir/input_window.cc.o: /mnt/HDD/Personal\ Projects/c++_stuff/flaxseed_c++/src/input_window.cc
+src/CMakeFiles/example.dir/input_window.cc.o: src/CMakeFiles/example.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/example.dir/input_window.cc.o"
+	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/example.dir/input_window.cc.o -MF CMakeFiles/example.dir/input_window.cc.o.d -o CMakeFiles/example.dir/input_window.cc.o -c "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/input_window.cc"
 
-src/CMakeFiles/example.dir/example_window.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/example_window.cc.i"
-	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/example_window.cc" > CMakeFiles/example.dir/example_window.cc.i
+src/CMakeFiles/example.dir/input_window.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/input_window.cc.i"
+	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/input_window.cc" > CMakeFiles/example.dir/input_window.cc.i
 
-src/CMakeFiles/example.dir/example_window.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/example_window.cc.s"
-	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/example_window.cc" -o CMakeFiles/example.dir/example_window.cc.s
+src/CMakeFiles/example.dir/input_window.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/input_window.cc.s"
+	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/src" && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/src/input_window.cc" -o CMakeFiles/example.dir/input_window.cc.s
 
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/main.cc.o" \
-"CMakeFiles/example.dir/example_window.cc.o"
+"CMakeFiles/example.dir/input_window.cc.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
 
 src/example: src/CMakeFiles/example.dir/main.cc.o
-src/example: src/CMakeFiles/example.dir/example_window.cc.o
+src/example: src/CMakeFiles/example.dir/input_window.cc.o
 src/example: src/CMakeFiles/example.dir/build.make
 src/example: src/CMakeFiles/example.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable example"

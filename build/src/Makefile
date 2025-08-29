@@ -130,29 +130,29 @@ example/fast:
 	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
-example_window.o: example_window.cc.o
-.PHONY : example_window.o
+input_window.o: input_window.cc.o
+.PHONY : input_window.o
 
 # target to build an object file
-example_window.cc.o:
-	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/example_window.cc.o
-.PHONY : example_window.cc.o
+input_window.cc.o:
+	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/input_window.cc.o
+.PHONY : input_window.cc.o
 
-example_window.i: example_window.cc.i
-.PHONY : example_window.i
+input_window.i: input_window.cc.i
+.PHONY : input_window.i
 
 # target to preprocess a source file
-example_window.cc.i:
-	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/example_window.cc.i
-.PHONY : example_window.cc.i
+input_window.cc.i:
+	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/input_window.cc.i
+.PHONY : input_window.cc.i
 
-example_window.s: example_window.cc.s
-.PHONY : example_window.s
+input_window.s: input_window.cc.s
+.PHONY : input_window.s
 
 # target to generate assembly for a file
-example_window.cc.s:
-	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/example_window.cc.s
-.PHONY : example_window.cc.s
+input_window.cc.s:
+	cd "/mnt/HDD/Personal Projects/c++_stuff/flaxseed_c++/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/example.dir/build.make src/CMakeFiles/example.dir/input_window.cc.s
+.PHONY : input_window.cc.s
 
 main.o: main.cc.o
 .PHONY : main.o
@@ -187,9 +187,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... example"
-	@echo "... example_window.o"
-	@echo "... example_window.i"
-	@echo "... example_window.s"
+	@echo "... input_window.o"
+	@echo "... input_window.i"
+	@echo "... input_window.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/example.dir/example_window.cc.o"
-  "CMakeFiles/example.dir/example_window.cc.o.d"
+  "CMakeFiles/example.dir/input_window.cc.o"
+  "CMakeFiles/example.dir/input_window.cc.o.d"
   "CMakeFiles/example.dir/main.cc.o"
   "CMakeFiles/example.dir/main.cc.o.d"
   "example"
